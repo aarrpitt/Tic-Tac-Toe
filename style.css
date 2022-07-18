@@ -1,11 +1,39 @@
 body {
-    background-color: rgb(32, 32, 32);
-    background-image: url("https://janschreiber.github.io/img2/black-chalk.jpg");
+    /* background-color: #05386B; */
+    background-image: url("pexels-gradienta-6985001.jpg");
+    background-size: cover;
     color: rgb(230, 230, 230);
     text-align: center;
-    font-family: 'Indie Flower', 'Comic Sans', cursive;
+    font-family: 'Odibee Sans', cursive;
     font-size: 0.7em;
 }
+
+#hey{
+    display: none;
+}
+.table_game{
+    background-image: url("pexels-abdullah-ghatasheh-1631677.jpg");
+    background-size: contain;
+}
+#btn3{
+   
+    color: palevioletred;
+    margin-top: 10px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+    height: 30px;
+    width: 80px;
+}
+
+button:hover{
+    background-color: pink;
+    color: white;
+}
+
+
+
 h1 {
     line-height: 1em;
     margin-bottom: 0;
@@ -45,6 +73,12 @@ table {
     vertical-align: middle;
     text-align: center;
 }
+
+.td_game:hover{
+    background-color:white;
+    opacity: 0.8;
+    filter: brightness(150%);
+}
 .fixed {
     width: 90px;
     height: 90px;
@@ -70,10 +104,10 @@ table {
     height: 0.9em;
     cursor: pointer;
     margin: 0 auto;
-    margin-right: 51%;
+    margin-right: 50%;
 }
 .x {
-    color: darksalmon;
+    color: rgba(120, 4, 87, 0.677);
     position: relative;
     top: -8px;
     font-size: 1.2em;
@@ -98,13 +132,14 @@ table {
     height: 100%;
     overflow: auto; /* enable scroll if needed */
     background-color: black; /* fallback color */
-    background-color: rgba(0, 0, 0, 0.6);
+    
 }
 
 /* modal content */
 .modal-content {
-    background-color: rgb(240, 240, 240);
-    color: rgb(32, 32, 32);
+    background-image: url(pexels-gradienta-7135057.jpg);
+    /* background-size: contain; */
+    color: #EDF5E1;
     font-size: 2em;
     font-weight: bold;
    
